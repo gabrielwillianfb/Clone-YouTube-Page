@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto" sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  background-color: #f9f9f9;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 59.5rem;
+  height: 46.625;
+  margin: 1.75rem 1.563rem auto 1.5rem;
+}
+
+.video {
+  width: 59.5rem;
+  height: 33.563rem;
+}
+
+.titulo-principal {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+h2 {
+  width: 24.438rem;
+  height: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.026rem;
+  color: #000000;
+}
+
+.descricao {
+  width: 31.875rem;
+  height: 4rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #515151;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
+  width: 56.375rem;
+  height: 2.625rem;
+  gap: 2.625rem;
+  align-items: center;
+}
+
+.channel-infos {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 0.75rem;
+  width: 10.7rem;
+  height: 2.625rem;
+}
+
+.channel-infos img {
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.desc-channel {
+  font-size: 0.875rem;
+  line-height: 1.026rem;
+  width: 7.2rem;
+  height: 2rem;
+  flex-direction: column;
+}
+
+.desc-channel h1 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.desc-channel p {
+  font-weight: 400;
+  color: #515151;
+}
+
+.button {
+  width: 9.938rem;
+  height: 2.5rem;
+  background-color: #cc0000;
+  border-radius: 0.125rem;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #fff;
+}
+
+.like {
+  display: flex;
+  width: 3.938rem;
+  height: 1.5rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.img-tools {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.like p {
+  width: 1.938rem;
+  height: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.dislike {
+  display: flex;
+  width: 6.25rem;
+  height: 1.5rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.dislike p {
+  width: 4.25rem;
+  height: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.compartilhar {
+  display: flex;
+  width: 7.188rem;
+  height: 1.5rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.compartilhar p {
+  width: 5.188rem;
+  height: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.download {
+  display: flex;
+  width: 5.938rem;
+  height: 1.5rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.download p {
+  width: 3.938rem;
+  height: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+/* ASIDE VÍDEOS --> */
+
+aside {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  background-color: #f9f9f9;
+}
+
+.aside-videos {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 100vh;
+  gap: 1rem;
+  margin: 1.75rem 1rem 0.125rem 1.563rem;
+}
+
+.infos-alt {
+  display: flex;
+  flex-direction: column;
+  width: 12.25rem;
+  gap: 1rem;
+  margin: 1.75rem 1rem 1.063rem 1rem;
+}
+
+.titulo-alt {
+  height: 2rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin: 0 0 0.5rem 0;
+  color: #000000;
+}
+
+.canal {
+  height: 0.875rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin: 0 0 0.438rem 0;
+  color: #515151;
+}
+
+.desc {
+  height: 1.75rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #515151;
+}
