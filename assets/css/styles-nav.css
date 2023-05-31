@@ -12,7 +12,7 @@ body {
   background-color: #ffffff;
 }
 
-nav {
+header {
   display: flex;
   height: 3.5rem;
   padding: 1rem 1.5rem;
